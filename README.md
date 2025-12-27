@@ -58,9 +58,11 @@ Facebook Login should be exercised over HTTPS. Use ngrok to expose your local se
 - UI: logged-out view has a single “Continue with Facebook” CTA; logged-in view shows name, profile photo, status badge, optional email/hometown rows, and logout.
 
 ## GroupMates
+ABAD JOHN MARK G.
 
 - John Marc M. Obogne
 - Floriza Neri L. Miranda
 - Jhon Lloyd Tirao
 
 - John Mark Abad
+
