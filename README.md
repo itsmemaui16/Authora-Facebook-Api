@@ -1,4 +1,5 @@
-# Authora-Facebook-Api
+# Authora FB_API
+
 Premium, glassy Facebook Login demo for localhost/HTTPS via ngrok. Frontend uses only the Facebook App ID; the App Secret stays in `.env` for future backend use and is never referenced in browser code.
 
 ## Features

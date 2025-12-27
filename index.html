@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" data-fb-app-id="1990614264864704">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Authora | Facebook Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-gradient"></div>
+    <main class="shell">
+      <section class="card" id="auth-card">
+        <div class="badge">Authora</div>
+        <h1>Welcome to Authora</h1>
+        <p class="subtitle">Secure sign-in with Facebook</p>
+
+        <div class="panel hidden" id="profile-panel">
+          <div class="avatar-wrapper">
+            <img id="profile-picture" alt="Facebook profile picture" />
+          </div>
+          <div class="profile-meta">
+            <div id="profile-name" class="profile-name"></div>
+            <span class="status-pill">Connected via Facebook</span>
+            <div class="profile-extra" id="profile-extra">
+              <div class="extra-row hidden" id="email-row">
+                <span class="extra-label">Email</span>
+                <span class="extra-value" id="profile-email"></span>
+              </div>
+              <div class="extra-row hidden" id="hometown-row">
+                <span class="extra-label">Hometown</span>
+                <span class="extra-value" id="profile-hometown"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button id="login-btn" class="btn primary">
+          <span class="spinner" aria-hidden="true"></span>
+          <span class="btn-text">Continue with Facebook</span>
+        </button>
+        <button id="logout-btn" class="btn ghost hidden">Log out</button>
+
+        <div class="hint">Runs locally · Some Facebook information may not be shared depending on account settings.</div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
