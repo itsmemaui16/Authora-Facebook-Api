@@ -62,4 +62,5 @@ Facebook Login should be exercised over HTTPS. Use ngrok to expose your local se
 - John Marc M. Obogne
 - Floriza Neri L. Miranda
 - Jhon Lloyd Tirao
+
 - John Mark Abad
